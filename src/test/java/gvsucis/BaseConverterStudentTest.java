@@ -17,7 +17,7 @@ public class BaseConverterStudentTest {
   @ParameterizedTest
   @CsvSource({ "0, 0",
                "1, 1",
-               "2, 10",q
+               "2, 10",
                "5, 101" })
   public void base10ToBinary(String input, String expectedOutput) {
     assertEquals(expectedOutput, BaseConverter.convert(input, 10, 2));
