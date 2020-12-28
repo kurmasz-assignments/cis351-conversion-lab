@@ -2,3 +2,6 @@
 *~
 \#*
 target/
+DLUnit*.jar
+Mars*jar
+MARS*jar
